@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial;
+	padding: 10px;
+	background: #f1f1f1;
+}
+
+
+/*  Untuk Styling Bagian Header  */
+.header {
+	padding: 30px;
+	text-align: center;
+	background-color: white;
+}
+
+.header h1 {
+	font-size: 50px;
+}
+
+/* UNTUK Styling Bagian Top-Nav  */
+.top-nav {
+	overflow: hidden;
+	background-color: black;
+}
+
+.top-nav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.top-nav a:hover {
+	background-color: #DDD;
+	color: black;
+}
+
+.top-nav .btn-login {
+	float: right;
+	background-color: green;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+.top-nav .btn-register {
+	float: right;
+	background-color: blue;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.top-nav .btn-login:hover {
+	background-color: lightgreen;
+	color: black;
+}
+
+.top-nav .btn-register:hover {
+	background-color: lightblue;
+	color: black;
+}
